@@ -87,7 +87,8 @@ figure{
   border-radius: 0.3rem;
   border: none;
   padding: 0.4rem;
-  padding-left: 60px;
+  padding-right: 60px;
+  outline-color: #B9D2FF;
 }
 
 .blue {
@@ -109,10 +110,25 @@ figure{
   color: #0051CC;
 }
 
-.join {
+h3 {
   font-family: 'Ubuntu', sans-serif;
   color: rgb(9, 30, 66);
   justify-content: center;
   display: flex;
   align-items: center;
 }
+
+::placeholder {
+  padding-right: 80%;
+  font-size:small;
+  font-weight: 600;
+}
+
+.log {
+  color: whitesmoke;
+  font-weight: bolder;
+  padding-right: 10px;  
+  cursor: pointer;
+  padding-top: 5px;
+}
+
